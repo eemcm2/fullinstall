@@ -1,0 +1,11 @@
+{
+  "name": "PS4 SERVER",
+  "version": Full Host",
+  "home_assistant_domain": "esphome",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S2",
+      "parts": [{ "path": "eemcm_fh_18012023.bin", "offset": 0 }]
+    }
+  ]
+}
